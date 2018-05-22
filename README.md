@@ -23,6 +23,7 @@ In JavaScript, we can take advantage of "flexibility" of the laungugage (I usuas
 can be simply be ```function checkBST(root, minValue, maxValue){ ```
 
  - **Can't use same function name twice but can set the initial value in arguments**
+
 You can see that Java solution has too checkBST, one is to process initial root and Java min & max number. 
 
 *side note 2: Java int min & max are different from JavaScript Number.MAX_VALUE & Number.MIN_VALUE!* 
