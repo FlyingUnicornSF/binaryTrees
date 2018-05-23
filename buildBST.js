@@ -13,7 +13,7 @@
 // This class for a binary tree node looks exactly the same accross the board. 
 class TreeNode {
 // you can set the default to null as a leaf's left and right nodes are null.
-// Java can't do this. Python, C++, Swoft, etc, also can set default value to parameters. 
+// Java can't do this. Python, C++, Swift, etc, also can set default value to parameters. 
   constructor(value, left = null, right = null){
     this.value = value;
     this.left = left;
