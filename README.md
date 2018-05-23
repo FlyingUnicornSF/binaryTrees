@@ -6,7 +6,7 @@ Hopefully these will be useful in the future when I have to go through interview
 
 I welcome any suggestion to come up with better solutions. 
 
-## Example - checkBST
+## Example 1 - checkBST
 ```
 function checkBST(){
 ```
@@ -35,3 +35,13 @@ function checkBST(
   maxValue = Number.MAX_VALUE
 ) 
 ```
+## Another Good Reference for BST in JavaScript
+This guy has everything in JS (except verify if it's a BST or not) [It's a good Read](https://khan4019.github.io/front-end-Interview-Questions/bst.html). One thing I'm not happy about his page is that code is missing documentation. 
+
+I think details of what makes a good code better than what noobs (like myself...) make are not taught thought anything besides "work experience".  You have to ~~force~~ have a really good programmer sit with great patient to show you and explain a thing or two. 
+
+I tried to capture them as much as I can in the documentaion.  Good example would be:
+## Example 2 - buildBST
+Use of "true" as a paremeter for while loop. It's really easy to use "true", but after it kickes you out (return) from the loop, you can't use it for anything else. If you want to use parentNode/currentNode value for something else, you want to use some other parameter (buildBST.js has a value set to true, false. khan4019 uses currentNode).
+
+khan made one class and used prototype. I used two classes. Why one is better than the other? I'm guessing it depends on what you're doing with it or what the rest of the architecture looks like.  Someday I will be experienced enough to write up on this or find some good read. 
