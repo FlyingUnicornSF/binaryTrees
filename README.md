@@ -4,6 +4,8 @@ I've decided to create these because I can't find too many JavaScript solutions 
 
 Hopefully these will be useful in the future when I have to go through interviews again for anyone who are looking for JavaSceript solutions for algorithm study materials.   
 
+I also think details of what makes a good code better than "noob code" (like mine before code reviews) are not taught though anything besides "work experience".  You have to ~~force~~ have a really good programmer sit with great patient to show you and explain a thing or two. 
+
 I welcome any suggestion/better solutions. 
 
 ## Example 1 - checkBST
@@ -38,9 +40,7 @@ function checkBST(
 ## Another Good Reference for BST in JavaScript
 This guy has everything in JS (except verify if it's a BST or not) [It's a good Read](https://khan4019.github.io/front-end-Interview-Questions/bst.html). One thing I'm not happy about his page is that code is missing documentation. 
 
-I think details of what makes a good code better than what noobs (like myself...) make are not taught thought anything besides "work experience".  You have to ~~force~~ have a really good programmer sit with great patient to show you and explain a thing or two. 
-
-I tried to capture them as much as I can in the documentaion.  Good example would be:
+I tried to document as much as I can.  Good example would be:
 ## Example 2 - buildBST
 Use of "true" as a paremeter for while loop. It's really easy to use "true", but after it kickes you out (return) from the loop, you can't use it for anything else. If you want to use parentNode/currentNode value for something else, you want to use some other parameter (buildBST.js has a value set to true, false. khan4019 uses currentNode).
 
