@@ -4,7 +4,7 @@ I've decided to create these because I can't find too many JavaScript solutions 
 
 Hopefully these will be useful in the future when I have to go through interviews again for anyone who are looking for JavaSceript solutions for algorithm study materials.   
 
-I welcome any suggestion to come up with better solutions. 
+I welcome any suggestion/better solutions. 
 
 ## Example 1 - checkBST
 ```
